@@ -1,0 +1,15 @@
+name: Feature request
+description: Suggest an idea or an improvement for Abyss
+labels: ["feature request"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Abyss to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: How would you use it?
+      description: A short example of your writing or notes routine helps a lot.
